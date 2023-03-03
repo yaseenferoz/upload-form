@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cloudinary = require('cloudinary').v2;
 const multer = require('multer');
-const upload = multer({ dest: 'uploads/' });
+const upload = multer({ dest: '/temp' });
 
 const app = express();
 
